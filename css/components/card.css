@@ -1,0 +1,32 @@
+
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.card {
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 2px 3px 30px rgba(0,0,0,0.2);
+  height: 280px;
+  text-align: center;
+
+}
+
+.card img {
+  width: 200px;
+  padding: 20px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.card h3 {
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.card p {
+  margin: 0;
+}
